@@ -6,5 +6,4 @@ export const createFakeContact = () => ({
   phone: faker.phone.number(),
   email: faker.internet.email(),
   job: faker.person.jobTitle(),
-  avatar: faker.image.avatar(),
 });
